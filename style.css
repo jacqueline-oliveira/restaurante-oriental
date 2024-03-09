@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+
+h1{
+   font-family: 'Dancing Script', cursive;
+   font-size: 62px;
+}
+h1::first-letter{
+    color:rgb(255, 109, 109);
+}
+#div1{
+   margin: auto;
+   text-align: center;
+   width: 1200px;
+   padding-top: 10px;
+   text-shadow: 1px 1px 5px rgb(255, 109, 109)
+}
+#nav-color{
+    background-color: #352727;
+    color: white;
+}
+#button-loja{
+    background-color: rgb(255, 109, 109);
+    color: white;
+    height: 40px;
+    width: 200px;
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+    transition: .2s;
+}
+#button-loja:hover{
+    background-color: rgb(255, 79, 79);
+    width: 220px;
+    border-radius: 10px;
+}
+section{
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#cronometro{
+    height: 100px;
+    color: aqua;
+    font-size: 30px;
+    text-align: center;
+}
